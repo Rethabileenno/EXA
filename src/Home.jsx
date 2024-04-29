@@ -12,14 +12,14 @@ const Home = () => {
 
 <div className="hero">
 <br/>   <br/>
-<br/> <br/> <br/> <br/> <br/>  <br/>  <br/>  <br/> 
-<br/>   <br/>
-<br/> <br/> <br/> <br/> <br/>  <br/>  <br/>  <br/> 
+<br/> <br/> <br/> <br/> 
+ <br/>   <br/>
+{/* <br/> <br/> <br/> <br/> <br/>  <br/>  <br/>  <br/>  */} 
 
 <nav className="navbar">
         <ul>
         <li><a href="#home"><h2>Home</h2></a></li>
-          <li><a href="#services"><h2>Menu</h2></a></li>
+          <li><Link to="/Menu"><h2>Menu</h2></Link></li>     
           <li><Link to="/about"><h2>About</h2></Link></li>     
          <li><a href="#contact"><h2>Contact</h2></a></li>
         </ul>

@@ -1,5 +1,8 @@
 import React from 'react'
 import './About.css';
+import { Link } from 'react-router-dom';
+
+
 
 const About = () => {
   return (
@@ -15,8 +18,8 @@ const About = () => {
     
     <nav className="navbar">
             <ul>
-            <li><a href="#home"><h2>Home</h2></a></li>
-              <li><a href="#services"><h2>Menu</h2></a></li>
+            <li><Link to="/"><h2>Home</h2></Link></li>     
+            <li><Link to="/Menu"><h2>Menu</h2></Link></li>     
               <li><a href="#about"><h2>About</h2></a></li>
               <li><a href="#contact"><h2>Contact</h2></a></li>
             </ul>
@@ -55,9 +58,15 @@ const About = () => {
     <br/>
     Thank you <br/>for choosing Pees Pastry.<br/> 
     {/* We're honored to be a part of your moments,<br/> big and small, and we look forward to<br/> serving you for generations to come. */}</p>
+   
+    <br/>   <br/>     <br/>   <br/>     <br/>   <br/>     <br/>   <br/>     <br/>   <br/>     <br/>   <br/>     <br/>   <br/> 
+    <br/>   <br/> 
+
     </div>
      
+     
         </div>
+
   )
 }
 

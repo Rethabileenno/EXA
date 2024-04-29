@@ -74,6 +74,12 @@
     .navbar a {
         padding: 10px 12px;
     }
+    .rows {
+        flex-direction: column;
+    }
+    .columns {
+        flex-direction: row;
+    }
 }
 
 .rows {
@@ -94,6 +100,15 @@
 
 .column2 {
     flex: 2;
-    background-color: orangered; /* Unique background color */
+    background-color:whitesmoke; /* Unique background color */
+    color: black; /* Unique text color */
     /* Add styles for the image description */
+}
+.carousel .slide {
+   /* Set the width */
+    height: 300px; /* Set the height */
+}
+.carousel .slide img {
+    height: 300px;
+    object-fit: cover; /* Preserve aspect ratio */
 }
