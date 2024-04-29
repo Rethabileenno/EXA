@@ -1,0 +1,70 @@
+.body {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-image: url("./Assets/IMG_7732.jpg");
+        background-size: cover;
+        background-repeat: repeat-x;  
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+        font-size: 3em;
+}
+
+.hero p {
+        font-size: 1.5em;
+}
+
+.navbar {
+        background-color:black;
+        overflow: hidden;
+}
+
+.navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+}
+
+.navbar li {
+        float: left;
+}
+
+.navbar a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+.navbar a:hover {
+        background-color: #ddd;
+        color: black;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero p {
+        font-size: 1em;
+    }
+
+    .navbar a {
+        padding: 10px 12px;
+    }
+}
