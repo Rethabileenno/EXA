@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import React from 'react';
 import Home from './Home';
-// import Menu from './Menu';
+import Menu from './Menu';
 import About from './About';
 
 
@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home/>} />
-        {/* <Route exact path="/menu" component={Menu} /> */}
+        <Route path="/menu" element={<Menu/>} />
         <Route path="/about" element={<About/>} />
         </Routes>
     </Router>

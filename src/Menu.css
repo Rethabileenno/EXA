@@ -1,3 +1,4 @@
+
 .body {
     display: flex;
     justify-content: center;
@@ -73,4 +74,26 @@
     .navbar a {
         padding: 10px 12px;
     }
+}
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+}
+.columns {
+    flex: 2 0 auto; /* Change base width to auto */
+    display: flex;
+    width: 600px; /* Set explicit width */
+    height: 300px; /* Set explicit height */
+}
+
+.column1 {
+    flex: 2;
+    /* Add styles for the slide images */
+}
+
+.column2 {
+    flex: 2;
+    background-color: orangered; /* Unique background color */
+    /* Add styles for the image description */
 }
