@@ -96,6 +96,8 @@ const Menu = () => {
                   Carrot Cake with Cream Cheese Frosting,
                   Vanilla Bean Cake with Buttercream Frosting,
                   Lemon Drizzle Cake
+                  <br/>    <br/>
+                  Price range:R500-1500
                
             </div>
         </div>
@@ -116,6 +118,9 @@ const Menu = () => {
                   Double Chocolate Chip Muffins,
                   Cranberry Orange Muffins,
                   Apple Cinnamon Muffins,
+
+                  <br/>    <br/>
+                  Price range:R45-500
             </div>
             <div className="column1">
             <Carousel autoPlay infiniteLoop showThumbs={false}>
@@ -171,6 +176,8 @@ const Menu = () => {
                   Chocolate Croissant (Pain au Chocolat),
                   Almond Croissant (Croissant aux Amandes),
                   Ham and Cheese Croissant
+                  <br/>    <br/>
+                  Price range:R250-600
             </div>
         </div>
       
@@ -187,6 +194,8 @@ const Menu = () => {
                 Cranberry Orange Scones,
                 Chocolate Chip Scones,
                 Lemon Poppy Seed Scones
+                <br/>    <br/>
+                  Price range:R150-500
             </div>
             <div className="column1">
 
@@ -243,6 +252,8 @@ const Menu = () => {
                 Lemon Tart,
                 Chocolate Chip Tart,
                 Lemon Poppy Seed Tart
+                <br/>    <br/>
+                  Price range:R150-350
 
             </div>
         </div>
