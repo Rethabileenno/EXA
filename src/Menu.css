@@ -1,3 +1,5 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 .body {
     display: flex;
@@ -7,6 +9,7 @@
     background-size: 100% 100%;
     background-repeat: repeat-x;  
     background-position: center center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 

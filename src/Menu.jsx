@@ -1,9 +1,10 @@
+// Importing necessary libraries and components
 import React from 'react'
 import { Link } from 'react-router-dom';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import './Menu.css';
-
+// Importing images
 import image1 from './Assets/IMG_7755.jpg';
 import image2 from './Assets/IMG_7756.jpg';
 import image3 from './Assets/IMG_7757.jpg';
@@ -35,7 +36,7 @@ import image24 from './Assets/IMG_7782.jpg';
 import image25 from './Assets/IMG_7783.jpg';
 
 
-
+// Menu component
 const Menu = () => {
   return (
     <div className="body">
@@ -46,20 +47,25 @@ const Menu = () => {
     <br/> <br/> <br/> <br/> <br/>  <br/>  <br/>  <br/> 
     <br/>   <br/>
     <br/> <br/> <br/> <br/> <br/>  <br/>  <br/>  <br/> 
-    <br/>   <br/>
-
+    <br/>   <br/><br/>  <br/>  <br/>  <br/> 
+    {/* // Navigation bar */}
     
     <nav className="navbar">
             <ul>
             <li><Link to="/"><h2>Home</h2></Link></li>     
               <li><a href="#services"><h2>Menu</h2></a></li>
-              <li><Link to="/about"><h2>About</h2></Link></li>     
-             <li><a href="#contact"><h2>Contact</h2></a></li>
+              <li><Link to="/about"><h2>About</h2></Link></li> 
+              <li><Link to="/contact"><h2>Contact</h2></Link></li>     
             </ul>
           </nav>
     <br/>
+    {/* // Menu title and description */}
+
       <h1>Our Menu </h1>
+      <p>At Pees~Pastry, <br/>  we're here to cater to all your cravings and occasions, <br/>  whether it's a typical day or a special event.  <br/> From weddings to birthdays, and from baby showers to graduations, <br/>  we have something for everyone, young and old alike..</p>
           
+      {/* // Carousel and description for each category of items */}
+
     <div className="rows">
         <div className="columns">
             <div className="column1">
@@ -82,7 +88,7 @@ const Menu = () => {
                 </Carousel>
             </div>
             <div className="column2">
-                {/* Image description */}
+               
                 <h1>Cakes:</h1>
                 <p> Our Flvours</p>
                 Red Velvet Cake,
@@ -102,9 +108,14 @@ const Menu = () => {
     <div className="rows">
         <div className="columns">
             <div className="column2">
-                {/* Image description */}
+           
                 <h1>Muffins:</h1>
-                <p>This is a description of the images.</p>
+                <p>Our Flvours</p>
+                Blueberry Muffins,
+                  Banana Nut Muffins,
+                  Double Chocolate Chip Muffins,
+                  Cranberry Orange Muffins,
+                  Apple Cinnamon Muffins,
             </div>
             <div className="column1">
             <Carousel autoPlay infiniteLoop showThumbs={false}>
@@ -153,9 +164,13 @@ const Menu = () => {
                 </Carousel>
             </div>
             <div className="column2">
-                {/* Image description */}
+      
                 <h1>Croissants:</h1>
-                <p>This is a description of the images.</p>
+                <p>Our Favours</p>
+                Classic Butter Croissant,
+                  Chocolate Croissant (Pain au Chocolat),
+                  Almond Croissant (Croissant aux Amandes),
+                  Ham and Cheese Croissant
             </div>
         </div>
       
@@ -164,9 +179,14 @@ const Menu = () => {
     <div className="rows">
         <div className="columns">
             <div className="column2">
-                {/* Image description */}
+          
                 <h1>Scones:</h1>
-                <p>This is a description of the images.</p>
+                <p>Our Flavours</p>
+                Plain Scones,
+                Blueberry Scones,
+                Cranberry Orange Scones,
+                Chocolate Chip Scones,
+                Lemon Poppy Seed Scones
             </div>
             <div className="column1">
 
@@ -215,9 +235,15 @@ const Menu = () => {
                 </Carousel>
             </div>
             <div className="column2">
-                {/* Image description */}
+             
                 <h1>Tarts:</h1>
-                <p>This is a description of the images.</p>
+                <p>Our Flavours</p>
+                Apple Tart,
+                Pumpkin Tart,
+                Lemon Tart,
+                Chocolate Chip Tart,
+                Lemon Poppy Seed Tart
+
             </div>
         </div>
       

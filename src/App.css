@@ -9,3 +9,24 @@
     background-size: cover;
     background-repeat: repeat-x;  
   }
+.button-container {
+    display: flex; 
+    justify-content: space-between; 
+}
+.custom-button {
+    background-color: orange; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 22px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+.custom-button:hover {
+    background-color: black; 
+}
